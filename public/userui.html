@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>User UI</title>
+</head>
+
+<body>
+    <h1>Welcome, <span id="username"></span></h1>
+    <p>You have <span id="no-of-cars"></span> car(s) in your dashboard</p>
+    <p>Click add car to a car</p>
+    <div id="display-cars" style="display: flex; width: 80%;"></div>
+    <div><a href="#showform" class="btn btn-success">Add Car</a></div>
+    <div class="container my-4" id="showform">
+        <div class="card mx-auto my-auto" style="width: 200%; max-width: 32rem;">
+            <div class="card-body">
+                <h3 class="card-title text-center">Create a car</h1>
+                    <form id="form-car" method="POST">
+                        <div class="form-group">
+                            <label for="brand">Brand</label>
+                            <input type="text" name="brand" id="brand" class="form-control" placeholder="Brand"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="model">Model</label>
+                            <input type="text" name="model" id="model" class="form-control" placeholder="Model"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="Year">Year</label>
+                            <input type="text" name="year" id="year" class="form-control" placeholder="Year" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="price">Price</label>
+                            <input type="text" name="price" id="price" class="form-control" placeholder="Price"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="color">Color</label>
+                            <input type="color" name="color" id="color" class="form-control" placeholder="color"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="image">Image Url</label>
+                            <input type="url" name="image" id="image" class="form-control" placeholder="image url"
+                                required>
+                        </div>
+                        <input type="submit" value="Create" class="btn btn-secondary btn-block create">
+                        <button style="display: none;" class="btn btn-secondary btn-block update">Update</button>
+                    </form>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <script src="./jquery-3.4.1.min.js"></script>
+    <script src="./userui.js"></script>
+</body>
+
+</html>

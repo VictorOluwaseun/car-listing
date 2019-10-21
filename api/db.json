@@ -1,0 +1,66 @@
+{
+  "cars": [
+    {
+      "id": 1
+    },
+    {
+      "surname": "Adewumi",
+      "firstname": "Victor",
+      "gender": "male",
+      "email": "adevic4christ@gmail.com",
+      "password": "success",
+      "confirmPassword": "success",
+      "phone": "07032333653",
+      "address": "2, Stadium Road, Araromi Street",
+      "id": 2
+    },
+    {
+      "surname": "Adewumi",
+      "firstname": "Victor",
+      "gender": "Victor Adewumi",
+      "email": "1@1.com",
+      "password": "success",
+      "phone": "07032333653",
+      "address": "2, Stadium Road, Araromi Street",
+      "id": 3
+    },
+    {
+      "surname": "Adewumi",
+      "firstname": "Victor",
+      "gender": "Victor Adewumi",
+      "email": "1@2.com",
+      "password": "success",
+      "phone": "07032333653",
+      "address": "2, Stadium Road, Araromi Street",
+      "id": 4
+    },
+    {
+      "surname": "Oluwaseun",
+      "firstname": "Ayomide",
+      "gender": "male",
+      "email": "1@5.com",
+      "password": "success",
+      "phone": "07032333653",
+      "address": "2, Stadium Road, Araromi Street",
+      "id": 5,
+      "carLists": [
+        {
+          "brand": "Toyota",
+          "model": "Corolla",
+          "year": "2019",
+          "price": "700000",
+          "color": "#000000",
+          "image": "http://localhost:3000/img/toyota.jpeg"
+        },
+        {
+          "brand": "Hilux",
+          "model": "Corolla",
+          "year": "2019",
+          "price": "Free",
+          "color": "#000000",
+          "image": "http://localhost:3000/img/hilux.jpeg"
+        }
+      ]
+    }
+  ]
+}
